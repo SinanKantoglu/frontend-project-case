@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mysvg{
+    width: 1440px;
+    height: 100%;
+    stroke-width: 1;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.location{
+    fill: #a6560b;
+    cursor: pointer;
+}
+.location:focus, .location:hover{
+    fill: #FBBF24;
+    outline: 0;
+}
+.location[aria-checked=true]{
+    fill: #ffffff;
+}
